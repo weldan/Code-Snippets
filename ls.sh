@@ -2,5 +2,6 @@
 
 for i in *
 do 
-	echo $i
+	printf '%s\t' "$i"
 done
+echo ""
